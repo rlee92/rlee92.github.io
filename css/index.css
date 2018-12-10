@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+@import "clock.css";
+@import "greeting.css";
+@import "todo.css";
+@import "weather.css";
+@import "image.css"; 
+
+/* @import "location.css";
+*/
+
+html {
+  background: #333333;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  font-family: 'Questrial', sans-serif;
+  font-size: 30px;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+  border-color: white;
+  color: white;
+  width: 318px;
+  text-align: center;
+}
+
+input::placeholder {
+  color: white;
+  opacity: 0.7;
+  text-align: center;
+
+}
+
+input:focus::placeholder {
+    opacity: 0;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.is-visible {
+  display: block;
+}

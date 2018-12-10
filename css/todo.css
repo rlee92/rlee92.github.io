@@ -1,0 +1,15 @@
+.list {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.taskInput{
+  font-size: 20px;
+}
+
+/* Remove li bullets  */
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
